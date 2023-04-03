@@ -21,6 +21,7 @@ export class IPhoneObservableImpl implements StockObservable {
             observer.update();
         }
     }
+    
     setStock(newStockAdded: number): void {
         if(this.stockCount === 0) {
             this.notifySubscribers();
