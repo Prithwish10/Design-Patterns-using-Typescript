@@ -34,14 +34,14 @@ If you are on VSCode the you can install the **Draw.io** extension.
 The Strategy Pattern allows you to define a set of algorithms (in this case, payment methods), encapsulate each one, and make them interchangeable.
 
 **Key Components:**
-PaymentStrategy Interface: Defines the common interface for all payment methods. Each payment method implements this interface.
+- PaymentStrategy Interface: Defines the common interface for all payment methods. Each payment method implements this interface.
 
 **Concrete Payment Strategies:**
-Classes like UpiPayment and DebitCardPayment implement the PaymentStrategy interface, providing specific logic for processing payments.
+- Classes like UpiPayment and DebitCardPayment implement the PaymentStrategy interface, providing specific logic for processing payments.
 
 **ShoppingCart:**
-This class uses a PaymentStrategy to perform the payment. It can switch between different strategies dynamically, facilitating runtime flexibility.
+- This class uses a PaymentStrategy to perform the payment. It can switch between different strategies dynamically, facilitating runtime flexibility.
 
 **Benefits of Using the Strategy Pattern:**
-Open/Closed Principle: The system is open for extension (new payment methods) but closed for modification (no changes to existing code).
-Maintainability: Adding new payment methods requires minimal changes to the existing codebase.
+- Open/Closed Principle: The system is open for extension (new payment methods) but closed for modification (no changes to existing code).
+- Maintainability: Adding new payment methods requires minimal changes to the existing codebase.
