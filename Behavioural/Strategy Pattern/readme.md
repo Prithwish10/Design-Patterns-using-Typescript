@@ -25,7 +25,7 @@ To get started, clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/Prithwish10/Design-Patterns-using-Typescript.git
-cd Behavioural/payment-service-strategy-pattern
+cd '.\Design-Patterns-using-Typescript\Behavioural\Strategy Pattern\'
 ```
 If you are on VSCode the you can install the **Draw.io** extension.
 
